@@ -7,7 +7,6 @@
 		cssEase: 'linear',		//アニメーションのパターン。通常はこのままでOK。
 		slidesToShow: 4,		//画面内に表示させる枚数。
 		slidesToScroll: 1,		//１回でスライド移動する枚数。
-		
 		//画面幅899px以下の設定
 		responsive: [
 		{

@@ -161,7 +161,7 @@ header nav a {
 header nav a:hover {
 	opacity: 1;						/*冒頭のaタグで、hover時にopacityが0.8でセットされているのを一旦リセット。hoverで薄くならないようにする。*/
 	background: rgba(0,0,0,0.8);	/*背景色。0,0,0は黒の事で0.8は色が80%出た状態。*/
-	border: 1px solid #fff;			/*枠線の幅、線種、色。上で透明だった線をここで表示させます。*/
+	border: 1px solid #fff;		/*枠線の幅、線種、色。上で透明だった線をここで表示させます。 */
 }
 
 /*日本語ページ（縦書きにする指定です）*/
@@ -303,17 +303,16 @@ main {
     margin: auto;
 }
 .button08:hover {
-  color: #000;
-  opacity: 0.6;
+    color: #000;
+    opacity: 0.6;
 }
-
 
 
 
 
 p {
   /* 水平方向の中央揃え */
-  text-align: center;
+    text-align: center;
 }
 	/*画面幅900px以上の追加指定*/
 	@media screen and (min-width:900px) {
